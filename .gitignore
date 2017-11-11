@@ -12,7 +12,7 @@
 .idea/jsLibraryMappings.xml
 
 # For currenly project
- #.gitignore
+ .gitignore
  .idea/
  .ruby-gemset
  .ruby-version
