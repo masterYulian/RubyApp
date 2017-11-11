@@ -13,7 +13,7 @@
 
 # For currenly project
 # .gitignore
- .idea/
+.idea/
 .ruby-gemset
 .ruby-version
 
