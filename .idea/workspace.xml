@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b50102-4f5c-4867-829e-c7c3190ef366" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -325,7 +324,7 @@
       <workItem from="1510146516669" duration="90000" />
       <workItem from="1510236677021" duration="315000" />
       <workItem from="1510402213392" duration="397000" />
-      <workItem from="1510402644385" duration="750000" />
+      <workItem from="1510402644385" duration="768000" />
     </task>
     <task id="LOCAL-00001" summary="Some change">
       <created>1508878613298</created>
@@ -383,11 +382,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510403346322</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add ruby arrays examples">
+      <created>1510403399634</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1510403399634</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21802000" />
+    <option name="totallyTimeSpent" value="21820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="962" extended-state="6" />
