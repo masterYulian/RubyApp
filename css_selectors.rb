@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
+require 'test-unit'
 require 'rubygems'
 require 'selenium-webdriver'
 require 'capybara'
-
 class CssSelectors
   def initialize(url)
     Selenium::WebDriver::Firefox.driver_path = 'src/geckodriver'
@@ -15,18 +15,13 @@ class CssSelectors
 
   def quite
     @web_driver.quit
+    puts 'Exit'
   end
 
   def image
     @web_driver.find_element(:css, '[alt=MacBook]')
   end
-
-
 end
 
 browser = CssSelectors.new('http://oppencart.herokuapp.com/index.php?route=common/home')
-browser.login_username
-browser.login_password
-browser.submit_button.click
-p browser.checkMessage.text
 browser.quite
